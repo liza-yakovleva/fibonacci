@@ -6,7 +6,6 @@ def fibonacci(n):
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
 
-# Ввод пользователя
-n = int(input("Введите значение n: "))
+n = int(input("Enter value n: "))
 
-print(f"Число Фібоначчі для n = {n}: {fibonacci(n)}")
+print(f"Fibonacci number for n = {n}: {fibonacci(n)}")
